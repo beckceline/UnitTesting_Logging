@@ -44,8 +44,9 @@ Für die Validierung des K-NN-Modells werden einige Tests durchgeführt. Die Erg
 
 Die Ausgabe zeigt die Anzahl der Trainingsdaten und Testdaten nach der Aufteilung. Diese Informationen geben an, wie viele Beispiele für das Training des Modells und für die Evaluierung zur Verfügung stehen. In diesem Beispiel:
 
-"Trainingsdaten: (8000, 784)" bedeutet, dass es 8.000 Trainingsbeispiele gibt, und jedes Beispiel hat 784 Merkmale (in diesem Fall Pixel für die Bilderkennung).
-"Testdaten: (2000, 784)" bedeutet, dass es 2.000 Testbeispiele gibt, die ebenfalls 784 Merkmale haben.
+| Trainingsdaten: (8000, 784) | Testdaten: (2000, 784) |
+|----------|----------|
+| bedeutet, dass es 8.000 Trainingsbeispiele gibt, und jedes Beispiel hat 784 Merkmale (in diesem Fall Pixel für die Bilderkennung)  | bedeutet, dass es 2.000 Testbeispiele gibt, die ebenfalls 784 Merkmale haben  |
 
 - Genauigkeit des K-NN-Modells:
 
