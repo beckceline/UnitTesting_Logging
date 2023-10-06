@@ -81,13 +81,14 @@ Die Confusion Matrix zeigt, wie viele Beispiele korrekt in jeder Klasse klassifi
 
 Diese Ausgabe liefert Informationen zur Laufzeit bestimmter Funktionen im Projekt. In diesem Beispiel:
 
-Laufzeit: 0.01789689064025879 Sekunden
-Vergleich mit repräsentativer Laufzeit: 0.01
-Laufzeit liegt im akzeptablen Bereich.
+- Laufzeit: 0.01789689064025879 Sekunden
+    - "Laufzeit" zeigt die Zeit in Sekunden an, die für eine bestimmte Funktion benötigt wurde.
+- Vergleich mit repräsentativer Laufzeit: 0.01
+    - "Vergleich mit repräsentativer Laufzeit" vergleicht die tatsächliche Laufzeit mit einer repräsentativen Laufzeit.
+- Laufzeit liegt im akzeptablen Bereich.
+  - In unserem Fall liegt die tatsächliche Laufzeit im akzeptablen Bereich.
 
-"Laufzeit" zeigt die Zeit in Sekunden an, die für eine bestimmte Funktion benötigt wurde.<br>
-"Vergleich mit repräsentativer Laufzeit" vergleicht die tatsächliche Laufzeit mit einer repräsentativen Laufzeit. In diesem Fall liegt die tatsächliche Laufzeit im akzeptablen Bereich.<br>
-Diese Ausgaben sind entscheidend, um den Projektfortschritt zu überwachen, die Modellleistung zu beurteilen und eventuelle Probleme oder Verbesserungsbereiche zu identifizieren.<br>
+Diese Ausgaben sind entscheidend, um den Projektfortschritt zu überwachen, die Modellleistung zu beurteilen und eventuelle Probleme oder Verbesserungsbereiche zu identifizieren.
 
 Mit einer Genauigkeit von 92% haben wir in diesem Projekt den K-Nearest Neighbors (K-NN) Klassifikator angewendet, um handgeschriebene Ziffern im MNIST-Datensatz erfolgreich zu klassifizieren. Diese Leistung ist bereits bemerkenswert und zeigt die Effektivität des K-NN-Algorithmus.
 
