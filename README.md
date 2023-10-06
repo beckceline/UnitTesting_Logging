@@ -1,4 +1,4 @@
-<img alt="Zahlen" src="[https://miro.medium.com/v2/resize:fit:850/1*VOP5sC-T2EWm8RmBNGpCUg.png](https://www.researchgate.net/publication/313810192/figure/fig7/AS:960348609851392@1605976359144/The-MNIST-dataset-consists-of-28-by-28-pixel-black-and-white-images-of-handwritten-digits.gif)">
+<img alt="Zahlen" src="https://www.researchgate.net/publication/313810192/figure/fig7/AS:960348609851392@1605976359144/The-MNIST-dataset-consists-of-28-by-28-pixel-black-and-white-images-of-handwritten-digits.gif">
 
 # UnitTesting_Logging für das K-Nearest Neighbors (K-NN) Klassifikationsprojekt
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/beckceline/UnitTesting_Logging/HEAD)
