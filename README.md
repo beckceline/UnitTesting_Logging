@@ -1,3 +1,5 @@
+<img alt="Zahlen" src="https://miro.medium.com/v2/resize:fit:850/1*VOP5sC-T2EWm8RmBNGpCUg.png">
+
 # UnitTesting_Logging für das K-Nearest Neighbors (K-NN) Klassifikationsprojekt
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/beckceline/UnitTesting_Logging/HEAD)
 
@@ -6,11 +8,12 @@ Dieses Projekt verwendet den MNIST-Datensatz, um handgeschriebene Ziffern zu kla
 ### Voraussetzungen<a name="voraussetzungen"></a>
 Bevor wir dieses Projekt ausführen, sollten wir sicherstellen, dass wir die folgenden Bibliotheken installiert haben:
 
-NumPy
-pandas
-Matplotlib
-scikit-learn
-unittest (Teil der Python-Standardbibliothek)
+- NumPy
+- pandas
+- Matplotlib
+- scikit-learn
+- unittest (Teil der Python-Standardbibliothek)
+
 Wenn wir diese Bibliotheken nicht installiert haben, können wir sie über pip install <bibliotheksname> installieren.
 
 ### Projektübersicht
@@ -37,21 +40,21 @@ Ein K-NN Klassifikator wird erstellt und mit den Trainingsdaten trainiert. Die A
 ### Tests, Loggen und Zeitmessung
 Für die Validierung des K-NN-Modells werden einige Tests durchgeführt. Die Ergebnisanzeigen im Projekt liefern wichtige Informationen über den Fortschritt, die Leistung und die Validierung des K-Nearest Neighbors (K-NN) Klassifikationsmodells. Hier sind die erwarteten Bildschirmausgaben im Detail:
 
-Trainings- und Testdaten:
+- Trainings- und Testdaten:
 
 Die Ausgabe zeigt die Anzahl der Trainingsdaten und Testdaten nach der Aufteilung. Diese Informationen geben an, wie viele Beispiele für das Training des Modells und für die Evaluierung zur Verfügung stehen. In diesem Beispiel:
 
 "Trainingsdaten: (8000, 784)" bedeutet, dass es 8.000 Trainingsbeispiele gibt, und jedes Beispiel hat 784 Merkmale (in diesem Fall Pixel für die Bilderkennung).
 "Testdaten: (2000, 784)" bedeutet, dass es 2.000 Testbeispiele gibt, die ebenfalls 784 Merkmale haben.
 
-Genauigkeit des K-NN-Modells:
+- Genauigkeit des K-NN-Modells:
 
 Diese Ausgabe zeigt die Genauigkeit des K-NN-Modells für die gewählte Anzahl von Nachbarn (k) an. Die Genauigkeit ist ein Maß dafür, wie gut das Modell in der Lage ist, die Ziffern korrekt zu klassifizieren. In diesem Beispiel:
 
 "Genauigkeit des k-NN-Modells mit k=5" bedeutet, dass das Modell mit einer k-Wert-Einstellung von 5 trainiert wurde.
 "0.91" ist die Genauigkeit des Modells, was bedeutet, dass es 91% der Testdaten korrekt klassifiziert hat.
 
-Testergebnisse und Confusion Matrix:
+- Testergebnisse und Confusion Matrix:
 
 Diese Ausgabe zeigt die Ergebnisse der Tests, die zur Validierung des K-NN-Modells durchgeführt wurden. Es enthält die Genauigkeit und die Verwirrungsmatrix. In diesem Beispiel:
 
@@ -70,7 +73,7 @@ Confusion Matrix:
 "Accuracy: 0.92" zeigt die Genauigkeit des Modells, die bei 92% liegt.
 Die Confusion Matrix zeigt, wie viele Beispiele korrekt in jeder Klasse klassifiziert wurden. Zum Beispiel zeigt die Diagonale (von oben links nach unten rechts), wie viele Beispiele in der entsprechenden Klasse korrekt klassifiziert wurden.
 
-Loggen und Zeitmessung:
+- Loggen und Zeitmessung:
 
 Diese Ausgabe liefert Informationen zur Laufzeit bestimmter Funktionen im Projekt. In diesem Beispiel:
 
