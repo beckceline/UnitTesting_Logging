@@ -81,12 +81,12 @@ Die Confusion Matrix zeigt, wie viele Beispiele korrekt in jeder Klasse klassifi
 
 Diese Ausgabe liefert Informationen zur Laufzeit bestimmter Funktionen im Projekt. In diesem Beispiel:
 
-- Laufzeit: 0.01789689064025879 Sekunden
-    - "Laufzeit" zeigt die Zeit in Sekunden an, die für eine bestimmte Funktion benötigt wurde.
-- Vergleich mit repräsentativer Laufzeit: 0.01
-    - "Vergleich mit repräsentativer Laufzeit" vergleicht die tatsächliche Laufzeit mit einer repräsentativen Laufzeit.
-- Laufzeit liegt im akzeptablen Bereich.
-  - In unserem Fall liegt die tatsächliche Laufzeit im akzeptablen Bereich.
+    - Laufzeit: 0.01789689064025879 Sekunden
+        - "Laufzeit" zeigt die Zeit in Sekunden an, die für eine bestimmte Funktion benötigt wurde.
+    - Vergleich mit repräsentativer Laufzeit: 0.01
+        - "Vergleich mit repräsentativer Laufzeit" vergleicht die tatsächliche Laufzeit mit einer repräsentativen Laufzeit.
+    - Laufzeit liegt im akzeptablen Bereich.
+        - In unserem Fall liegt die tatsächliche Laufzeit im akzeptablen Bereich.
 
 Diese Ausgaben sind entscheidend, um den Projektfortschritt zu überwachen, die Modellleistung zu beurteilen und eventuelle Probleme oder Verbesserungsbereiche zu identifizieren.
 
