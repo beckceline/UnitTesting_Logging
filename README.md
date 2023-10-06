@@ -1,19 +1,9 @@
 # UnitTesting_Logging für das K-Nearest Neighbors (K-NN) Klassifikationsprojekt
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/beckceline/UnitTesting_Logging/HEAD)
 
-Diese README-Datei enthält eine ausführliche Dokumentation für das K-Nearest Neighbors (K-NN) Klassifikationsprojekt. Dieses Projekt verwendet den MNIST-Datensatz, um Handgeschriebene Ziffern zu klassifizieren. Der Code ist in Python geschrieben und verwendet Bibliotheken wie NumPy, pandas, Matplotlib und scikit-learn. Ziel ist es, die Genauigkeit eines K-NN-Modells zu bestimmen und einige Tests zur Validierung durchzuführen.
+Dieses Projekt verwendet den MNIST-Datensatz, um handgeschriebene Ziffern zu klassifizieren. Der Code ist in Python geschrieben und verwendet Bibliotheken wie NumPy, pandas, Matplotlib und scikit-learn. Ziel ist es, die Genauigkeit eines K-NN-Modells zu bestimmen und einige Tests zur Validierung durchzuführen.
 
-Inhaltsverzeichnis
-
-Voraussetzungen
-Projektübersicht
-Datenbeschaffung
-Datenbereinigung und Vorbereitung
-Klassifikation mit K-NN
-Tests
-Loggen und Zeitmessung
-
-Voraussetzungen<a name="voraussetzungen"></a>
+## Voraussetzungen<a name="voraussetzungen"></a>
 Bevor wir dieses Projekt ausführen, sollten wir sicherstellen, dass wir die folgenden Bibliotheken installiert haben:
 
 NumPy
@@ -23,7 +13,7 @@ scikit-learn
 unittest (Teil der Python-Standardbibliothek)
 Wenn wir diese Bibliotheken nicht installiert haben, können wir sie über pip install <bibliotheksname> installieren.
 
-Projektübersicht<a name="projektübersicht"></a>
+## Projektübersicht
 Dieses Projekt zielt darauf ab, die Genauigkeit eines K-Nearest Neighbors (K-NN) Klassifikators auf dem MNIST-Datensatz zu bestimmen. Der Code ist in Python geschrieben und besteht aus den folgenden Schritten:
 
 Importieren der benötigten Bibliotheken.
@@ -35,7 +25,7 @@ Training und Auswertung des K-NN-Modells.
 Durchführung von Tests zur Validierung des Modells.
 Implementierung von Logging und Zeitmessung für Laufzeitanalysen.
 
-Datenbeschaffung<a name="datenbeschaffung"></a>
+### Datenbeschaffung
 Der MNIST-Datensatz wird mithilfe von scikit-learn fetch_openml Funktion geladen. Es wird eine Teilmenge des Datensatzes ausgewählt (z. B. 10.000 Beispiele) und in Trainings- und Testsets aufgeteilt.
 
 Datenbereinigung und Vorbereitung<a name="datenbereinigung-und-vorbereitung"></a>
