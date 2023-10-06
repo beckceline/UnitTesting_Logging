@@ -1,6 +1,7 @@
 # UnitTesting_Logging für das K-Nearest Neighbors (K-NN) Klassifikationsprojekt
-<img alt="Zahlen" src="https://production-media.paperswithcode.com/datasets/MNISTLargeScale-sample-images.jpg">
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/beckceline/UnitTesting_Logging/HEAD)
+
+<img alt="Zahlen" src="https://production-media.paperswithcode.com/datasets/MNISTLargeScale-sample-images.jpg">
 
 Dieses Projekt verwendet den MNIST-Datensatz, um handgeschriebene Ziffern zu klassifizieren. Der Code ist in Python geschrieben und verwendet Bibliotheken wie NumPy, pandas, Matplotlib und scikit-learn. Ziel ist es, die Genauigkeit eines K-NN-Modells zu bestimmen und einige Tests zur Validierung durchzuführen.
 
